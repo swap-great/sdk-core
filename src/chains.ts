@@ -23,7 +23,7 @@ export enum ChainId {
   ROOTSTOCK = 30,
   BLAST = 81457,
   //
-  BASE_SEPOLIA = 83452
+  BASE_SEPOLIA = 84532
 }
 
 export const SUPPORTED_CHAINS = [
