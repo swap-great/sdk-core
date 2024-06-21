@@ -77,7 +77,7 @@ function _inheritsLoose(subClass, superClass) {
   ChainId[ChainId["ROOTSTOCK"] = 30] = "ROOTSTOCK";
   ChainId[ChainId["BLAST"] = 81457] = "BLAST"; //
 
-  ChainId[ChainId["BASE_SEPOLIA"] = 81452] = "BASE_SEPOLIA";
+  ChainId[ChainId["BASE_SEPOLIA"] = 83452] = "BASE_SEPOLIA";
 })(exports.ChainId || (exports.ChainId = {}));
 
 var SUPPORTED_CHAINS = [exports.ChainId.MAINNET, exports.ChainId.OPTIMISM, exports.ChainId.OPTIMISM_GOERLI, exports.ChainId.OPTIMISM_SEPOLIA, exports.ChainId.ARBITRUM_ONE, exports.ChainId.ARBITRUM_GOERLI, exports.ChainId.ARBITRUM_SEPOLIA, exports.ChainId.POLYGON, exports.ChainId.POLYGON_MUMBAI, exports.ChainId.GOERLI, exports.ChainId.SEPOLIA, exports.ChainId.CELO_ALFAJORES, exports.ChainId.CELO, exports.ChainId.BNB, exports.ChainId.AVALANCHE, exports.ChainId.BASE, exports.ChainId.BASE_GOERLI, exports.ChainId.ZORA, exports.ChainId.ZORA_SEPOLIA, exports.ChainId.ROOTSTOCK, exports.ChainId.BLAST, //
