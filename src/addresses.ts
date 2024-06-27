@@ -48,7 +48,7 @@ export const V2_FACTORY_ADDRESSES: AddressMap = {
   [ChainId.POLYGON]: '0x9e5A52f57b3038F1B8EeE45F28b3C1967e22799C',
   [ChainId.CELO]: '0x79a530c8e2fA8748B7B40dd3629C0520c2cCf03f',
   [ChainId.BLAST]: '0x5C346464d33F90bABaf70dB6388507CC889C1070',
-  [ChainId.BASE_SEPOLIA]: '0xfd8D39298478F7b88FD7687F4B470d095bb8c7Bd'
+  [ChainId.BASE_SEPOLIA]: '0x61b781d983f5D2134946dF130E9B62962C71b2C0'
 }
 /**
  * @deprecated use V2_ROUTER_ADDRESSES instead
@@ -64,7 +64,7 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {
   [ChainId.BNB]: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
   [ChainId.POLYGON]: '0xedf6066a2b290c185783862c7f4776a2c8077ad1',
   [ChainId.BLAST]: '0xBB66Eb1c5e875933D44DAe661dbD80e5D9B03035',
-  [ChainId.BASE_SEPOLIA]: '0xAaF04917032161dD6BA5020241eeF79F87a85DC6'
+  [ChainId.BASE_SEPOLIA]: '0x6EFCe422d390F7CdB9a7F2C4AafC03DD75564030'
 }
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
@@ -239,13 +239,13 @@ const BLAST_ADDRESSES: ChainAddresses = {
 
 // change
 const BASE_SEPOLIA_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xb4D27C618a44cF8f7300845057A643a5Af67a89a',
-  multicallAddress: '0xebaBc4CFDc5B9F3eC8741A62F56ab37A68e7B1EE',
-  quoterAddress: '0x5B4b7Dd837AAF3ceeB15D4e6317455015Dad0A3E',
-  v3MigratorAddress: '0xbed424B20f6ee268E8cC6547F376A0Bd19BB0D81',
-  nonfungiblePositionManagerAddress: '0x6776FbE3B437b8F2f5dfC4BaEC536CD5Be076E14',
-  tickLensAddress: '0x462f0b860ca7CA22D6A4F313492881EE7C5c8906',
-  swapRouter02Address: '0xa4CF852659Dab7CD26701BA58E7d4d372cb37e0F'
+  v3CoreFactoryAddress: '0xfaa89f95CE1948582154ee1C0Ea47701cBb95E04',
+  multicallAddress: '0xF9911D71113Afb93444f5B144fe527A1d90087DF',
+  quoterAddress: '0x14F6C7321ca7B8dAb3DF149a91384748494eaA1D',
+  v3MigratorAddress: '0x3BfB5316324Ecb1D52D55243A2A0631890709c00',
+  nonfungiblePositionManagerAddress: '0xa7D7557CDD505Da17dc8a220251A0e4b6d6cD887',
+  tickLensAddress: '0xb25c8944C7Fa103112897BFfAd830529EEf7Bc18',
+  swapRouter02Address: '0x0b078AFf55764b627c2b7BB5d4102D8422333aCB'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
